@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioContacto</title>
+    <link rel="stylesheet" href="css/stylesFormulario.css">
+    <link rel="icon" type="image/png" href="./img/favicon.jpg">
+</head>
+<body>
+    <section id="formularioContacto">
+        <h2 id="contacto" class="destacado">Untref School</h2>
+        <form action="https://formsubmit.co/lei7ale@gmail.com" method="POST">
+            <div>
+                <label class="destacado" for="nombre">Nombre</label >
+                <br>
+                <input type="text" name="nombre" value="" id="nombre" required placeholder="Indique su nombre"
+                    minlength="3" maxlength="10">
+            </div>
+            <div>
+                <label class="destacado" for="mail">Mail</label>
+                <br>
+                <input type="text" name="mail" value="" id="mail" required placeholder="Indique su mail">
+            </div>
+            <div>
+                <label class="destacado" for="mensaje">Mensaje</label>
+                <br>
+                <textarea name="comentario" id="comentario"rows="10" required
+                    placeholder="Indique su mensaje, nos comunicaremos con usted en la brevedad"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="botonDetalle">Enviar</button>
+            </div>
+        </form>
+</body>
+</html>
